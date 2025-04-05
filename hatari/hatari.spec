@@ -13,7 +13,9 @@ Autoreqprov:  on
 Version:      2.5.0
 Release:      1
 Summary:      An Atari ST/STE/TT/Falcon emulator
-Source:       %{name}-%{version}.tar.bz2
+
+Source0:    https://framagit.org/hatari/releases/-/raw/main/v2.5/hatari-2.5.0.tar.bz2
+
 BuildRoot:    %{_tmppath}/%{name}-%{version}-build
 Prefix:       /usr
 
